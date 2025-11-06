@@ -9,7 +9,7 @@
 .home-container {
     width: 100%;
     height: 100vh;
-    background-image: url("../MTProject/home-bg.png");
+    background-image: url("../IMG/home-bg.png");
     background-size: cover;
     background-position: center;
 }
@@ -351,95 +351,3 @@
     color: #F8F7BA;
     padding: 10px;
 } 
-
-/* Media Querry for < 414px */
-@media (max-width: 414px) {
-    .navbar ul {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        color: aqua;
-    }
-
-    .navbar ul li {
-        width: 100%;
-        margin: 5px 0;
-        padding: 10px;
-    }
-
-    .navbar ul li a {
-        font-size: 14px;
-        color: aqua;
-    }
-
-    .home-logo img {
-        height: 35px;
-        width: 50px;
-        margin-left: 5px;
-    }
-
-    .home-content h1 {
-        font-size: 35px;
-        margin-right: 10px;
-        margin-left: 10px;
-        margin-bottom: 15px;
-    }
-
-    .home-button {
-        width: 150px;
-        font-size: 16px;
-        padding: 8px;
-    }
-
-    .home-button:hover {
-        width: 150px;
-        font-size: 16px;
-        padding: 8px;
-    }
-}
-
-/* media querry for 415px and 420px */
-@media (min-width: 415px) and (max-width: 420px) {
-    .navbar ul {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        color: lightgreen;
-    }
-
-    .navbar ul li {
-        width: 100%;
-        margin: 5px 0;
-        padding: 10px;
-    }
-
-    .navbar ul li a {
-        font-size: 18px;
-        color: lightgreen;
-    }
-
-    .home-logo img {
-        height: 35px;
-        width: 50px;
-        margin-left: 5px;
-    }
-
-    .home-content h1 {
-        font-size: 35px;
-        margin-right: 10px;
-        margin-left: 10px;
-        margin-bottom: 15px;
-    }
-
-    .home-button {
-        width: 150px;
-        font-size: 16px;
-        padding: 8px;
-    }
-
-    .home-button:hover {
-        width: 150px;
-        font-size: 16px;
-        padding: 8px;
-    }
-}
