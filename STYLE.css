@@ -97,7 +97,7 @@
 /* ABOUT.CSS */
 .about-container {
     width: 100%;
-    height: 87vh;
+    height: 85vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -111,14 +111,14 @@
 
 .about-image img {
     width: 100%;
-    height: 87vh;
+    height: 85vh;
     display: block;
     border-radius: 10px;
 }
 
 .about-content {
     width: 100%;
-    height: 87vh;
+    height: 85vh;
     top: 0;
     left: 0;
     position: absolute;
@@ -154,7 +154,7 @@
 /* TOURIST.CSS */
 .tourist-container {
     width: 100%;
-    height: 93vh;
+    height: 90vh;
     margin-top: 15px;
     margin-left: 35px;
     margin-right: 35px;
@@ -166,19 +166,19 @@
 
 .tourist-image {
     position: relative;
-    width: 420px;
-    height: 310px;
+    width: 375px;
+    height: 268px;
 }
 
 .tourist-container img {
-    width: 420px;
-    height: 310px;
+    width: 375px;
+    height: 268px;
     border-radius: 10px;
 }
 
 .tourist-content {
-    width: 420px;
-    height: 310px;
+    width: 375px;
+    height: 268px;
     top: 0;
     left: 0;
     position: absolute;
@@ -214,7 +214,7 @@
 /* FESTIVAL.CSS */
 .festival-container {
     width: 100%;
-    height: 87vh;
+    height: 85vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -228,14 +228,14 @@
 
 .festival-image img {
     width: 100%;
-    height: 87vh;
+    height: 85vh;
     display: block;
     border-radius: 10px;
 }
 
 .festival-content {
     width: 100%;
-    height: 87vh;
+    height: 85vh;
     top: 0;
     left: 0;
     position: absolute;
@@ -295,7 +295,7 @@
 /* FOODS.CSS */
 .foods-container {
     width: 100%;
-    height: 93vh;
+    height: 90vh;
     margin-top: 15px;
     margin-left: 35px;
     margin-right: 35px;
@@ -307,19 +307,19 @@
 
 .foods-image {
     position: relative;
-     width: 420px;
-    height: 310px;
+    width: 375px;
+    height: 268px;
 }
 
 .foods-container img {
-    width: 420px;
-    height: 310px;
+    width: 375px;
+    height: 268px;
     border-radius: 10px;
 }
 
 .foods-content {
-    width: 420px;
-    height: 310px;
+    width: 375px;
+    height: 268px;
     top: 0;
     left: 0;
     position: absolute;
@@ -351,3 +351,236 @@
     color: #F8F7BA;
     padding: 10px;
 } 
+
+/* Responsive Design with Media Queries */
+
+/* Tablet Styles (768px to 1024px) */
+@media screen and (max-width: 1024px) {
+    .navbar ul li {
+        width: 120px; /* Reduce navbar item width */
+        margin: 3px;
+        padding: 3px;
+    }
+
+    .navbar ul li a {
+        font-size: 18px; /* Slightly smaller font */
+    }
+
+    .home-content h1 {
+        font-size: 50px; /* Reduce heading size */
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .home-button {
+        width: 180px; /* Slightly smaller button */
+        font-size: 18px;
+    }
+
+    .home-button:hover {
+        width: 180px;
+        font-size: 18px;
+    }
+
+    .about-container,
+    .festival-container {
+        height: 70vh; /* Reduce height for tablets */
+    }
+
+    .about-image,
+    .festival-image {
+        width: 400px; /* Smaller image width */
+    }
+
+    .about-image img,
+    .festival-image img {
+        height: 70vh;
+    }
+
+    .about-content h3,
+    .festival-content h3 {
+        font-size: 22px; /* Smaller headings */
+    }
+
+    .about-content p,
+    .festival-content p {
+        font-size: 18px; /* Smaller text */
+    }
+
+    .tourist-container,
+    .foods-container {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for tablets */
+        margin-left: 20px;
+        margin-right: 20px;
+        height: auto; /* Allow height to adjust */
+    }
+
+    .tourist-image,
+    .foods-image {
+        width: 100%; /* Full width within grid */
+        height: auto;
+    }
+
+    .tourist-container img,
+    .foods-container img {
+        width: 100%;
+        height: auto;
+        max-height: 250px; /* Limit height */
+    }
+
+    .tourist-content,
+    .foods-content {
+        width: 100%;
+        height: 100%;
+    }
+
+    .tourist-content h3,
+    .foods-content h3 {
+        font-size: 18px;
+    }
+
+    .tourist-content p,
+    .foods-content p {
+        font-size: 15px;
+    }
+
+    .festival-button {
+        width: 80px;
+        font-size: 18px;
+    }
+
+    .festival-button:hover {
+        width: 80px;
+        font-size: 18px;
+    }
+}
+
+/* @MEDIA */
+@media screen and (max-width: 768px) {
+    .navbar ul {
+        display: flex;
+        flex-direction: column; /* Stack navbar items vertically */
+        align-items: center;
+    }
+
+    .navbar ul li {
+        width: 100%; /* Full width for mobile */
+        margin: 5px 0;
+        padding: 10px;
+    }
+
+    .navbar ul li a {
+        font-size: 16px; /* Smaller font for mobile */
+    }
+
+    .home-logo img {
+        height: 35px;
+        width: 50px; /* Smaller logo */
+        margin-left: 5px;
+    }
+
+    .home-content h1 {
+        font-size: 35px; /* Much smaller heading for mobile */
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 15px;
+    }
+
+    .home-button {
+        width: 150px; /* Smaller button */
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    .home-button:hover {
+        width: 150px;
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    .about-container,
+    .festival-container {
+        height: 60vh; /* Further reduce height */
+        margin-top: 15px;
+    }
+
+    .about-image,
+    .festival-image {
+        width: 90%; /* Responsive width */
+        max-width: 350px;
+    }
+
+    .about-image img,
+    .festival-image img {
+        height: 60vh;
+    }
+
+    .about-content,
+    .festival-content {
+        height: 100%;
+    }
+
+    .about-content h3,
+    .festival-content h3 {
+        font-size: 18px; /* Smaller headings */
+    }
+
+    .about-content p,
+    .festival-content p {
+        font-size: 16px; /* Smaller text */
+        padding: 5px;
+    }
+
+    .tourist-container,
+    .foods-container {
+        grid-template-columns: 1fr; /* Single column for mobile */
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: auto;
+        grid-gap: 10px;
+    }
+
+    .tourist-image,
+    .foods-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .tourist-container img,
+    .foods-container img {
+        width: 100%;
+        height: auto;
+        max-height: 200px; /* Limit height for mobile */
+    }
+
+    .tourist-content,
+    .foods-content {
+        width: 100%;
+        height: 100%;
+    }
+
+    .tourist-content h3,
+    .foods-content h3 {
+        font-size: 16px;
+    }
+
+    .tourist-content p,
+    .foods-content p {
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    .festival-button {
+        width: 70px;
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    .festival-button:hover {
+        width: 70px;
+        font-size: 16px;
+        padding: 8px;
+    }
+}
