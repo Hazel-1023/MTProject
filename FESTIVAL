@@ -14,11 +14,11 @@
     <div class="index-container">
         <div class="navbar">
             <ul>
-            <li><a href="INDEX.html">HOME</a></li>
-            <li><a href="ABOUT.html">ABOUT ME</a></li>
-            <li><a href="TOURIST.html">TOURIST SPOTS</a></li>
-            <li><a href="FESTIVAL.html">FESTIVAL</a></li>
-            <li><a href="FOODS.html">FOODS</a></li>
+            <li><a href="INDEX">HOME</a></li>
+            <li><a href="ABOUT">ABOUT ME</a></li>
+            <li><a href="TOURIST">TOURIST SPOTS</a></li>
+            <li><a href="FESTIVAL">FESTIVAL</a></li>
+            <li><a href="FOODS">FOODS</a></li>
             </ul>
         </div>
 
